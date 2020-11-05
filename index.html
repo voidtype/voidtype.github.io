@@ -19,7 +19,7 @@ function PDF(){
  var worker = html2pdf();
  setTimeout(function(){worker.from(tempdoc.body).save()},50);
  //sadly have to block code here due to https://github.com/eKoopmans/html2pdf.js/issues/219 (alternate fix is use inline styles or let the user choose style, or extend the library to declare its functions as async)
- setTimeout(function(){document.getElementById("pagestyle").setAttribute("href","style.css");},50);
+ setTimeout(function(){document.getElementById("pagestyle").setAttribute("href","style.css");},100);
 }
 </script>
 </head>
