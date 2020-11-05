@@ -17,9 +17,9 @@ function PDF(){
  el.parentNode.removeChild(el);
  //apply printable css to make things easy for consumers
  var worker = html2pdf();
- setTimeout(function(){worker.from(tempdoc.body).save()},50);
+ setTimeout(function(){worker.from(tempdoc.body).save()},100);
  //sadly have to block code here due to https://github.com/eKoopmans/html2pdf.js/issues/219 (alternate fix is use inline styles or let the user choose style, or extend the library to declare its functions as async)
- setTimeout(function(){document.getElementById("pagestyle").setAttribute("href","style.css");},100);
+ setTimeout(function(){document.getElementById("pagestyle").setAttribute("href","style.css");},200);
 }
 </script>
 </head>
