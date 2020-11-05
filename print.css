@@ -1,6 +1,6 @@
 *{
  font-family: "Roboto Mono", serif;
- color: #ffefef;
+ color: #0c0c53;
 }
 
 #slug{
@@ -9,6 +9,7 @@
   width: 70%; 
   display: table;
   text-align: center;
+  font-size: 0.7rem;
 }
 
 #download{
@@ -20,9 +21,10 @@
   background-color: #0c0c53; 
 }
 
+
 li {
   list-style: none;
-  padding-top: 1rem; 
+  padding-top: 0.7rem; 
 }
 
 ul {
@@ -32,21 +34,23 @@ ul {
 
 h1 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.25rem;
 }
 
 body {
-  background-color: #0c0c53;
+  background-color: #fefeff;
   color: white;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 h2 {
-  margin-left: 20px;
+  margin-left: 10px;
   text-align: left;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 li {
-  margin-left: 50px;
+  margin-left: 25px;
+  font-size: 0.5rem;
+  color: #0c0c53;
 }
