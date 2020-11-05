@@ -5,26 +5,20 @@
 
 h1 {
   margin: 0 auto;
-  top: 20vh;
-  width: 100vw;
   text-align: center;
-  font-size: 6vh;
+  font-size: 2rem;
 }
 
 body {
-  background-color: #0c0c33;
-  height: 100vh;
-  width: 100vw;
+  background-color: #0c0c53;
   color: white;
   margin-left: 10px;
 }
 
 h2 {
   margin-left: 10px;
-  top: 20vh;
-  width: 100vw;
   text-align: left;
-  font-size: 4vh;
+  font-size: 1.5rem;
 }
 
 li {
