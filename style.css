@@ -3,8 +3,34 @@
  color: #ffefef;
 }
 
+#slug{
+  margin: auto;
+  font-style: italic;
+  width: 50%; 
+  display: table;
+  text-align: center;
+}
+
+#download{
+  position: sticky;
+  position: webkit-sticky;
+  float: right;
+  text-align: right:
+  border: #ffefef;
+  background-color: #0c0c53; 
+}
+
+li {
+  list-style: none;
+  padding-top: 1rem; 
+}
+
+ul {
+  columns:3;
+  -webkit-columns: 3;
+}
+
 h1 {
-  margin: 0 auto;
   text-align: center;
   font-size: 2rem;
 }
@@ -12,15 +38,15 @@ h1 {
 body {
   background-color: #0c0c53;
   color: white;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 h2 {
-  margin-left: 10px;
+  margin-left: 20px;
   text-align: left;
   font-size: 1.5rem;
 }
 
 li {
-  margin-left: 25px;
+  margin-left: 50px;
 }
