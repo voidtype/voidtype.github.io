@@ -1,9 +1,9 @@
 *{
  font-family: "Roboto Mono", serif;
- color: #ffbbcc;
+ color: #ffefef;
 }
 
-title {
+h1 {
   margin: 0 auto;
   top: 20vh;
   width: 100vw;
@@ -12,14 +12,14 @@ title {
 }
 
 body {
-  background-color: #2222CC;
+  background-color: #0c0c33;
   height: 100vh;
   width: 100vw;
   color: white;
   margin-left: 10px;
 }
 
-h1 {
+h2 {
   margin-left: 10px;
   top: 20vh;
   width: 100vw;
@@ -27,3 +27,6 @@ h1 {
   font-size: 4vh;
 }
 
+li {
+  margin-left: 25px;
+}
