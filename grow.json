@@ -1,6 +1,6 @@
 {
 "bpm":0.5,
 "duty":0.07,
-"led":0,
+"ledState":0,
 "pressureMax":70
 }
