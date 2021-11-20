@@ -20,12 +20,13 @@
   background-color: #0c0c53; 
 }
 
-li {
+.iconlist li {
   list-style: none;
-  padding-top: 1rem; 
+  padding-top: 1rem;
+  margin-left: 50px; 
 }
 
-ul {
+.iconlist {
   columns:3;
   -webkit-columns: 3;
 }
@@ -47,6 +48,15 @@ h2 {
   font-size: 1.5rem;
 }
 
-li {
-  margin-left: 50px;
+.experience {
+  width: 90%;
+  margin: auto;
+}
+
+.experience .overview {
+ font-style: italic;
+}
+
+.exerience .achieve {
+ 
 }
