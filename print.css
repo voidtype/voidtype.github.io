@@ -26,7 +26,7 @@
   list-style: none;
   padding-top: 0.7rem; 
   margin-left: 25px;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   color: #0c0c53;
 }
 
@@ -38,6 +38,7 @@
 h1 {
   text-align: center;
   font-size: 1.25rem;
+  margin: auto;
 }
 
 body {
@@ -55,12 +56,18 @@ h2 {
 .experience {
   width: 90%;
   margin: auto;
+  margin-bottom: 30px;
 }
 
 .experience .overview {
- font-style: italic;
+    font-style: italic;
+    font-size: 0.7rem;
 }
 
-.exerience .achieve {
+.experience li{
+    font-size: 0.7rem;
+}
 
+h3{
+    font-size: 0.85rem;
 }

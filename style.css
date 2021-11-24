@@ -51,6 +51,7 @@ h2 {
 .experience {
   width: 90%;
   margin: auto;
+  margin-bottom: 45px;
 }
 
 .experience .overview {
@@ -59,4 +60,8 @@ h2 {
 
 .exerience .achieve {
  
+}
+
+.printbreak {
+    display: none;
 }
