@@ -13,19 +13,18 @@
             document.getElementById("pagestyle").setAttribute("href", "print.css");
             //apply printable css to make things easy for consumers
             console.log("copying doc");
-            //sadly have to block code here several times due to https://github.com/eKoopmans/html2pdf.js/issues/219 
-            //(alternate fix is use inline styles or let the user choose style, or extend the library to declare its functions as async)
+            //redraw the doc
             document.getElementById('cv').style.display = 'none';
-            setTimeout(function() {
-                document.getElementById('cv').style.display = 'block'}
-            ,100);
+            document.getElementById('cv').style.display = 'block';
             var tempdoc = document.cloneNode(true);
             //remove the download button
             var el = tempdoc.getElementById("download");
             el.parentNode.removeChild(el);
             var worker = html2pdf();
-            setTimeout(function () { worker.from(tempdoc.body).save() }, 100);
-            setTimeout(function () { document.getElementById("pagestyle").setAttribute("href", "style.css"); }, 200);
+            //sadly have to block code here several times due to https://github.com/eKoopmans/html2pdf.js/issues/219 
+            //(alternate fix is use inline styles or let the user choose style, or extend the library to declare its functions as async)
+            setTimeout(function () { worker.from(tempdoc.body).save() }, 1000);
+            setTimeout(function () { document.getElementById("pagestyle").setAttribute("href", "style.css"); }, 1200);
         }
     </script>
 </head>
