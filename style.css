@@ -17,7 +17,7 @@
   float: right;
   text-align: right:
   border: #ffefef;
-  background-color: #0c0c53; 
+  background-color: #010101; 
 }
 
 .iconlist li {
@@ -37,7 +37,7 @@ h1 {
 }
 
 body {
-  background-color: #0c0c53;
+  background-color: #010101;
   color: white;
   margin-left: 20px;
 }
