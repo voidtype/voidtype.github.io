@@ -1,6 +1,6 @@
 *{
  font-family: "Roboto Mono", serif;
- color: #0c0c53;
+ color: #121212;
 }
 
 #slug{
@@ -42,7 +42,7 @@ h1 {
 }
 
 body {
-  background-color: #fefeff;
+  background-color:white;
   color: white;
   margin-left: 10px;
 }
